@@ -1,0 +1,22 @@
+h1, h2{
+    color:blueviolet
+}
+
+/* We target the child (p) from the parent .box class  */
+.box > p  { 
+    color: firebrick
+}
+
+/* Find all the descendants (li) within the parent .box
+   Only affects the li under that parent  */
+.box li {
+    color: blue;
+}
+
+li.done {
+    color: seagreen
+}
+
+ul p.done {
+    font-size: 0.5rem;
+}
