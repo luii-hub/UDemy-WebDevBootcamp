@@ -37,6 +37,13 @@ footer {
   width: 45%;
 }
 
+.left{
+  float: left;
+}
+
+.right {
+  float: right;
+}
 
 @media (max-width: 680px) {
   .logo {
