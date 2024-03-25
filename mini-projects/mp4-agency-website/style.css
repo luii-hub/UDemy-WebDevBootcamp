@@ -34,8 +34,17 @@ footer {
   margin-right: 55px;
 }
 
+
+.card{
+  width: 45%;
+}
+
 .right {
   float: right;
+}
+
+.left{
+  float: left;
 }
 
 @media (max-width: 680px) {
